@@ -65,3 +65,40 @@ function nicknameGenerator(name) {
 ```
 
 ---
+
+## Education
+
+---
+
+- Prague University of Economics and Business, Faculty of Informatics and Statistics, 2005 – 2009
+- The School of International and Public Relations, Prague, Diplomatic and public relations, 2001 – 2004
+
+---
+
+## Courses
+
+---
+
+- RS School Course «JavaScript/Front-end Stage 1» _(in progress...)_
+- JavaScript Junior Frontend Developer (online course from Vladilen Minin)
+- Stephen Grider — Modern React with Redux
+- Andrew Mead — The Complete React Developer Course
+- Brad Traversy — React Front to Back
+- Stephen Grider — Typescript The Complete Developer's Guide
+- Jonas Schmedtmann — Build Responsive Real World Websites with HTML5 and CSS3
+- Jonas Schmedtmann — The Complete JavaScript Course 2021: From Zero to Expert!
+- Brad Traversy, Florin Pop — 50 Projects In 50 Days - HTML, CSS & JavaScript
+- Jad Khalili — Git: Become an Expert in Git & GitHub in 4 Hours
+- Jonas Schmedtmann — Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+- Colt Steele, Elie Schoppik, Tim Garcia, Matt Lane — The Advanced Web Developer Bootcamp
+
+---
+
+## Experience
+
+---
+
+[A commercial project created for lovers of outdoor activities in the Czech Republic - created on React](https://sunnytrips.cz)  
+[Programming on javascript for Scandinavian e-shop](Bangerhead.se)
+
+---
