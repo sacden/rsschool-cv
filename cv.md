@@ -27,3 +27,26 @@ I have:
 - 15+ years of graphic experience in Photoshop
 
 ---
+
+## Skills:
+
+---
+
+### Tech stack
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Wordpress
+- SQL
+
+### Tools
+
+- VS Code
+- GIT
+- Webflow
+- Photoshop, Illustrator
+- Target and SMM: Vk
+
+---
