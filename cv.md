@@ -102,3 +102,11 @@ function nicknameGenerator(name) {
 [Programming on javascript for Scandinavian e-shop](Bangerhead.se)
 
 ---
+
+## Languages
+
+---
+
+- **Russian** - native speaker
+- **English** - Intermediate (B2+) - Graduated from school with in-depth study of the English language.
+- **Czech** - C1
