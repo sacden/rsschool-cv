@@ -50,3 +50,18 @@ I have:
 - Target and SMM: Vk
 
 ---
+
+## Code Example
+
+---
+
+**Nickname Generator:** _Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname. If the 3rd letter is a consonant, return the first 3 letters. If the 3rd letter is a consonant, return the first 3 letters. If the 3rd letter is a vowel, return the first 4 letters. If the string is less than 4 characters, return "Error: Name too short". Vowels are "aeiou", so discount the letter "y". Input will always be a string. Input will always have the first letter capitalised and the rest lowercase (e.g. Sam)_
+
+```js
+function nicknameGenerator(name) {
+  const arr = ["a", "e", "i", "o", "u"];
+  return name.length < 4 ? "Error: Name too short" : arr.includes(name.charAt(2)) ? name.split("").splice(0, 4).join("") : name.split("").splice(0, 3).join("");
+}
+```
+
+---
