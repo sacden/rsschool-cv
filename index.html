@@ -4,29 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>CV</title>
   </head>
   <body>
     <div class="container">
+        <div class="columns">
       <div class="left-column">
         <div class="logo"><img src="./images/avatar.png" alt="Denis Shakhmaev" width="200" height="200" /></div>
-        <div class="contact">
-          <h3>Contact</h3>
-          <p>+420 725 398 321</p>
-          <p>sacden2009@gmail.com</p>
-        </div>
-        <div class="github">
+        <section class="contact">
+          <h3>CONTACT</h3>
+          <ul class='clean'>
+          <li>  <img src="./icons/phone.png" id="phone" alt="phone" width="20" height="20" />+420 725 398 321</li>
+          <li><img src="./icons/email.png" id="email" alt="email" width="20" height="20" />sacden2009@gmail.com</li>
+        </ul>
+        </section>
+        <section class="github">
           <h3>GITHUB</h3>
-          <p><a href="https://github.com/sacden">github.com/sacden</a></p>
-        </div>
-        <div class="languages">
+          <ul class='clean'>
+          <li><img src="./icons/github.png" id="github" alt="github" width="20" height="20" /><a href="https://github.com/sacden">github.com/sacden</a></li>
+        </ul>
+        </section>
+        <section class="languages">
           <h3>LANGUAGES</h3>
           <ul>
-            <li>Czech (Fluent)</li>
             <li>Enlish (Fluent)</li>
             <li>Russian (Native)</li>
+            <li>Czech (Fluent)</li>
           </ul>
-        </div>
+        </section>
+        <section class="references">
+            <h3>REFERENCES</h3>
+            <ul class='clean'>
+              <li><span class='bold'>Michal Hanuš</span> — Group IT Process Manager
+                
+              </li>
+              <li>+420 606 629 342</li>
+             <br>
+                <li><span class='bold'>Alexey Gura</span> — Head of Conversion Rate Optimization</li>
+                <li>+420 777 092 350</li>
+              
+            </ul>
+          </section>
+          <section class="books">
+            <h3>BOOKS</h3>
+            <ul>
+              <li><span class='bold'>David Flanagan</span> — JavaScript: The Definitive Guide</li>
+              <li><span class='bold'>David Flanagan</span> — Algorithms</li>
+              <li><span class='bold'>Steve McConnell</span> — Code complete</li>
+              <li><span class='bold'>Robert C. Martin</span> — Clean Code</li>
+            </ul>
+          </section>
+  
+          <section class="knowledge">
+            <h3>KNOWLEDGE & SKILLS</h3>
+            <img src="./images/knowledge.png" id="knowledge" alt="knowledge" width="100%" height="100%" />
+          </section>
+  
+          <section class="courses">
+            <h3>FRONTEND COURSES</h3>
+            <ul>
+              <li><span class='bold'>Stephen Grider</span> — Modern React with Redux</li>
+              <li><span class='bold'>Andrew Mead</span> — The Complete React Developer Course</li>
+              <li><span class='bold'>Brad Traversy</span> — React Front to Back</li>
+              <li><span class='bold'>Stephen Grider</span>— Typescript The Complete Developer's Guide</li>
+              <li><span class='bold'>Jonas Schmedtmann</span> — Build Responsive Real World Websites with HTML5 and CSS3</li>
+              <li><span class='bold'>Jonas Schmedtmann</span> — The Complete JavaScript Course 2021: From Zero to Expert!</li>
+              <li><span class='bold'>Brad Traversy, Florin Pop</span> — 50 Projects In 50 Days - HTML, CSS & JavaScript</li>
+              <li><span class='bold'>Jad Khalili</span> — Git: Become an Expert in Git & GitHub in 4 Hours</li>
+              <li><span class='bold'>Jonas Schmedtmann</span> — Advanced CSS and Sass: Flexbox, Grid, Animations and More!</li>
+              <li><span class='bold'>Colt Steele, Elie Schoppik, Tim Garcia, Matt Lane</span> — The Advanced Web Developer Bootcamp</li>
+            </ul>
+          </section>
+  
+          <section class="thanks">
+              <p>Thank you for taking the time to review my resume.</p> 
+                <p> I truly believe that my past experience and education would make me a valuable asset for your organization.</p>
+                 <p> Please feel free to email me at sacden2009@gmail.com if you need any other information.
+                  </p>
+          </section>
       </div>
 
       <aside class="right-column">
@@ -35,84 +92,51 @@
           <h2>Front-End developer</h2>
           <h3>5+ Years of Expierence in Web Development</h3>
         </section>
+        <div class="line"></div>
         <section class="profile">
           <h3>PROFILE</h3>
           <p>Innovative Front-End Developer with 5 years experience building and maintaining responsive websites.</p>
           <p>Proficient in HTML, CSS, JavaScript, as well as modern libraries and frameworks. Passionate about usability and possesses working knowledge of Adobe Photoshop.</p>
         </section>
-        <section class="references">
-          <h3>REFERENCES</h3>
-          <ul>
-            <li>
-              <p>Michal Hanuš — Group IT Process Manager</p>
-              <p>+420 606 629 342</p>
-            </li>
-            <li>
-              <p>Alexey Gura — Head of Conversion Rate Optimization</p>
-              <p>+420 777 092 350</p>
-            </li>
-          </ul>
-        </section>
-        <section class="books">
-          <h3>BOOKS</h3>
-          <ul>
-            <li><strong>David Flanagan</strong> — JavaScript: The Definitive Guide</li>
-            <li><strong>David Flanagan</strong> — Algorithms</li>
-            <li><strong>Steve McConnell</strong> — Code complete</li>
-            <li><strong>Robert C. Martin</strong> — Clean Code</li>
-          </ul>
-        </section>
+        <div class="line"></div>
 
-        <section class="knowledge">
-          <h3>KNOWLEDGE & SKILLS</h3>
-          <img src="./images/knowledge.png" alt="knowledge" width="325" height="700" />
-        </section>
-
-        <section class="courses">
-          <h3>FRONTEND COURSES & CONFERENCES</h3>
-          <ul>
-            <li><strong>Stephen Grider</strong> — Modern React with Redux</li>
-            <li><strong>Andrew Mead</strong> — The Complete React Developer Course</li>
-            <li><strong>Brad Traversy</strong> — React Front to Back</li>
-            <li><strong>Stephen Grider</strong>— Typescript The Complete Developer's Guide</li>
-            <li><strong>Jonas Schmedtmann</strong> — Build Responsive Real World Websites with HTML5 and CSS3</li>
-            <li><strong>Jonas Schmedtmann</strong> — The Complete JavaScript Course 2021: From Zero to Expert!</li>
-            <li><strong>Brad Traversy, Florin Pop</strong> — 50 Projects In 50 Days - HTML, CSS & JavaScript</li>
-            <li><strong>Jad Khalili</strong> — Git: Become an Expert in Git & GitHub in 4 Hours</li>
-            <li><strong>Jonas Schmedtmann</strong> — Advanced CSS and Sass: Flexbox, Grid, Animations and More!</li>
-            <li><strong>Colt Steele, Elie Schoppik, Tim Garcia, Matt Lane</strong> — The Advanced Web Developer Bootcamp</li>
-          </ul>
-        </section>
-
-        <section class="thanks">
-            <p>Thank you for taking the time to review my resume.
-                I truly believe that my past experience and education would make me a valuable asset for your organization.
-                Please feel free to email me at sacden2009@gmail.com if you need any other information.
-                </p>
-        </section>
-
-        <section class="work-experience">
+        <div class="work-experience">
           <h3>WORK EXPERIENCE</h3>
+          <div class="basic-job-description">
+           <div class="experience-logo"> <img src="./icons/bangerhead-logo.png" alt="bangerhead" width="80" height="80" /></div>
+           <div class="experience-info">
           <div class="work-position">Frontend Developer</div>
           <div class="project-name">Bangerhead.com (Scandinavian e-shop)</div>
           <div class="date">Feb 2021 – Jun 2021</div>
+          </div>
+         </div>
           <p>This is a small project that aims to increase buying power by adding gamification to the main website.</p>
           <p>My main task was to design two templates for the desktop and mobile version based on the design that was provided to me through Figma.</p>
           <p>I configured the interface elements using javascript and made valid requests that added data to the site via an API.</p>
-          <img src="./images/bangerhead.png" alt="bangerhead" width="600" height="450" />
+          <img src="./images/bangerhead.png" id="bangerhead" alt="bangerhead" width="100%" height="100%" />
 
+          <div class="basic-job-description">
+            <div class="experience-logo"> <img src="./icons/sunnytrips-logo.png" alt="sunnytrips" width="80" height="80" /></div>
+            <div class="experience-info">
           <div class="work-position">React Developer</div>
           <div class="project-name">Sunnytrips.cz (Trips/Events in Czech Republic)</div>
           <div class="date">Jan 2021 – Feb 2021</div>
+        </div>
+        </div>
           <p>A commercial project created for lovers of outdoor activities in the Czech Republic.</p>
           <p>The site was created from scratch using React, Bootstrap and Firebase technologies.</p>
           <p>The project included – a photo gallery, personal accounts, registration, authorization and maps. The site works in three languages. The project is still in development.</p>
           <p>Minor css changes needed to be made and payment through the site was added.</p>
-          <img src="./images/sunnytrips.png" alt="sunnytrips" width="650" height="650" />
+          <img src="./images/sunnytrips.png" id="sunnytrips" alt="sunnytrips" width="100%" height="100%" />
 
+          <div class="basic-job-description">
+            <div class="experience-logo"> <img src="./icons/stock-logo.png" alt="stock" width="80" height="80" /></div>
+            <div class="experience-info">
           <div class="work-position">IT Specialist</div>
           <div class="project-name">STOCK Plzeň - Božkov s.r.o.</div>
           <div class="date">Jan 2016 – Jul 2021</div>
+          </div>
+    </div>
           <ul>
             <li>Regular communication with L3 support colleagues from the UK and external suppliers</li>
             <li>Monitoring of company IT infrastructure</li>
@@ -124,19 +148,28 @@
             <li>Electronic inventory of IT assets in cooperation with the accounting department</li>
             <li>Ongoing creation and updating of internal IT knowledge base (Wikipedia)</li>
           </ul>
-
+          <div class="basic-job-description">
+            <div class="experience-logo"> <img src="./icons/webfactor-logo.png" alt="webfactor" width="80" height="80" /></div>
+            <div class="experience-info">
           <div class="work-position">Web Developer</div>
           <div class="project-name">WEBFACTOR – Digital agency</div>
           <div class="date">Jan 2014 – Dec 2018</div>
+          </div>
+          </div>
           <ul>
             <li>Managed media buying for all major platforms, including PPC, Facebook, Instagram & Display</li>
             <li>Developed websites and landing pages for digital marketing needs</li>
             <li>Implemented optimal marketing practices to obtain the maximum ROI through clicks, opens, and overall customer engagement</li>
           </ul>
 
+          <div class="basic-job-description">
+            <div class="experience-logo"> <img src="./icons/rsvk-logo.png" alt="rsvk" width="80" height="80" /></div>
+            <div class="experience-info">
           <div class="work-position">Web Developer</div>
           <div class="project-name">Russian center of science and culture</div>
           <div class="date">Jan 2009 – Mar 2015</div>
+          </div>
+        </div>
           <ul>
             <li>Created a web site based on Wordpress - http://rsvk.cz/</li>
             <li>Implemented 1 additional language</li>
@@ -148,18 +181,28 @@
             <li>Maintained and uploading content</li>
           </ul>
         </section>
+        <div class="line"></div>
         <section class="education">
             <h3>EDUCATION & QUALIFICATIONS</h3>
-            <ul>
-                <li>Prague University of Economics and Business</li>
-                <li>Faculty of Informatics and Statistics</li>
-                <li>2005 – 2009</li>
-                <br>
-                <li>The School of International and Public Relations, Prague</li>
-                <li>Diplomatic and public relations</li>
-                <li>2001 – 2004</li>
-            </ul>
+            <div class="basic-job-description">
+                <div class="experience-logo"> <img src="./icons/vse-logo.png" alt="vse" width="80" height="80" /></div>
+                <div class="experience-info">
+                <div class="work-position">Prague University of Economics and Business</div>
+                <div class="project-name">Faculty of Informatics and Statistics</div>
+                <div class="date">2005 – 2009</div>
+                </div>
+                </div>
+                <div class="basic-job-description">
+                    <div class="experience-logo"> <img src="./icons/sipr-logo.png" alt="sipr" width="80" height="80" /></div>
+                    <div class="experience-info">
+                <div class="work-position">The School of International and Public Relations, Prague</div>
+                <div class="project-name">Diplomatic and public relations</div>
+                <div class="date">2001 – 2004</div>
+                </div>
+           </div>
       </aside>
     </div>
+</div>
+<div class="footer"></div>
   </body>
 </html>
