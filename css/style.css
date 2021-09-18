@@ -124,7 +124,8 @@ ul li {
   display: flex;
 }
 
-a:link {
+a:link,
+a:visited {
   text-decoration: none;
   color: black;
 }
@@ -148,4 +149,27 @@ a:link {
 }
 .experience-info {
   width: auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 3px white;
+
+  padding: 0px 20px 0px 20px;
+}
+.github-logo-footer {
+  align-items: center;
+}
+.created {
+  align-items: center;
+  justify-content: center;
+}
+.course-logo {
+  align-items: center;
+  justify-content: right;
+}
+.github-link {
+  display: flex;
+  align-items: center;
 }
