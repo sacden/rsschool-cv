@@ -1,12 +1,12 @@
 body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif, Verdana, Segoe, sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  font-size: 16px;
-
   box-sizing: border-box;
   background: #191922 !important;
-  color: white;
+  color: #cacace;
+  font-size: 13px;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
 }
 
 h1 {
@@ -27,6 +27,9 @@ h3 {
   padding: 10px 0px 10px 0px;
   font-weight: 700;
   line-height: 15.4px;
+}
+h6 {
+  color: white;
 }
 p {
   font-size: 16px;
@@ -179,4 +182,39 @@ a:visited {
 .github-link {
   display: flex;
   align-items: center;
+}
+
+/* Styles after bootstrap added */
+section {
+  color: #cacace;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+
+  position: relative;
+  margin-bottom: 25px;
+}
+.about {
+  background-color: #23232d;
+  margin: 0px -11px 0px -11px !important;
+  padding: 40px 0px 40px 0px !important;
+}
+.own-links {
+  transition: 0.4s ease-in-out;
+}
+.own-links:hover {
+  color: #f6c344 !important;
+}
+.name {
+}
+.position {
+  font-size: 13px;
+  font-style: normal;
+  color: #8c8c8e;
 }
