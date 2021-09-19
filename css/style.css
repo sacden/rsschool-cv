@@ -268,11 +268,19 @@ section {
 }
 .skills ul li {
   font-size: 13px;
-  color: #cacace;
+  color: #8c8c8e;
 }
 /* progress-round */
 .language-progress {
   display: inline-block;
+}
+
+.download-cv {
+  width: 80%;
+  margin: auto;
+  font-size: 13px;
+  color: #8c8c8e;
+  padding-top: 15px;
 }
 
 .progress-round {
