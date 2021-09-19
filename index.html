@@ -100,7 +100,7 @@
           </ul>
         </section>
         <div class="divider"></div>
-        <section class="download-cv">
+        <section class="download-cv text-center">
           <div ><a href='./cv/CV_Denis_Shakhmaev_EN.pdf' target="_blank" class="own-links" >DOWNLOAD CV <i class="bi-download"></i></a></div>
          </section>
      
@@ -168,9 +168,9 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="#experience" class='own-links own-nav'>Work experience</a></li>
               <li class="breadcrumb-item"><a href="#education" class='own-links own-nav'>Education</a></li>
-              <li class="breadcrumb-item"><a href="#books" class='own-links own-nav'>Books</a></li>
               <li class="breadcrumb-item"><a href="#courses" class='own-links own-nav'>Courses</a></li>
-              <li class="breadcrumb-item"><a href="#samples" class='own-links own-nav'>Sample code</a></li>
+              <li class="breadcrumb-item"><a href="#books" class='own-links own-nav'>Books</a></li>
+              <li class="breadcrumb-item"><a href="#example" class='own-links own-nav'>Code example</a></li>
               <li class="breadcrumb-item"><a href="#refrences" class='own-links own-nav'>Refrences</a></li>
             </ol>
           </nav>
@@ -186,10 +186,10 @@
           <p>Innovative Front-End Developer with 5 years experience building and maintaining responsive websites.</p>
           <p>Proficient in HTML, CSS, JavaScript, as well as modern libraries and frameworks. Passionate about usability and possesses working knowledge of Adobe Photoshop.</p>
         </section> -->
-        <div class="line"></div>
+      
 
         <div class="work-experience row row-cols-2 row-cols-md-1 g-4 mx-2">
-          <h3>WORK EXPERIENCE</h3>
+          <h3><a href='#' name="experience" class='own-links'>WORK EXPERIENCE</a></h3>
 
           <div class="card" style="width: 18rem;">
             <div class="card-body">
@@ -234,9 +234,10 @@
     </div>
       
         </section>
-        <div class="line"></div>
+        
         <section class="education row row-cols-2 row-cols-md-1 g-4 mx-2">
-            <h3>EDUCATION</h3>
+          
+            <h3><a href='#' name="education" class='own-links'>EDUCATION</a></h3>
 
             <div class="card" style="width: 18rem;">
               <div class="card-body">
@@ -256,6 +257,17 @@
               </div>
             </div>
         </section>
+      
+        <section>
+          <h3><a href='#' name="example" class='own-links'>CODE EXAMPLE</a></h3>
+          <div class="bd-callout bd-callout-warning">
+            <div class="row"><span class="text-danger">function </span><span class="text-warning">disemvowel </span> (<span class="text-warning">str</span>) {</div>
+              <div class="row px-4"><span class="text-danger">const</span><span class="text-warning">arr </span> = [<span class="text-success">'a','i','e','o','u','A','I','E','O','U'</span>]</div>
+              <div class="row px-4"><span class="text-danger">return</span> str.split(<span class="text-success">' '</span>).map(<span class="text-warning">el</span> => el.split(<span class="text-success">''</span>).filter(<span class="text-warning">x</span> => !arr.includes(x)).join(<span class="text-success">''</span>)).join(<span class="text-success">' '</span>)
+              </div>
+              <div class="row">}</div>
+          </div></section>
+        
       </aside>
     </div>
     <div class="footer">

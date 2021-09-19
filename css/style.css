@@ -26,6 +26,7 @@ h3 {
   font-size: 17px !important;
   font-weight: 600;
   color: white;
+  padding-top: 30px;
 }
 h6 {
   color: white;
@@ -177,6 +178,35 @@ a:visited {
 .github-link {
   display: flex;
   align-items: center;
+}
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 3px solid #191922;
+  border-left-width: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #191922;
+  word-spacing: 2px;
+  letter-spacing: 0.1em;
+  width: 90%;
+}
+
+.bd-callout-warning {
+  border-left-color: #ffc107;
+}
+
+.row .text-warning {
+  width: auto !important;
+  padding: 0px !important;
+}
+.row .text-danger {
+  width: auto !important;
+  padding: 0px 3px 0px 0px !important;
+}
+.row .text-success {
+  width: auto !important;
+  padding: 0px !important;
 }
 
 /* Styles after bootstrap added */
