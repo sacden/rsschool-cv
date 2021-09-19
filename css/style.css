@@ -280,7 +280,18 @@ section {
   margin: auto;
   font-size: 13px;
   color: #8c8c8e;
-  padding-top: 15px;
+  padding: 15px 0px 15px 0px;
+}
+
+.contact {
+  background-color: #23232d;
+  margin: 0px -22px 0px -11px !important;
+  padding: 20px 40px 20px 0px !important;
+  text-align: center;
+}
+
+.contact ul li {
+  display: inline-block !important;
 }
 
 .progress-round {
