@@ -212,6 +212,10 @@ section {
 .own-links:hover {
   color: #f6c344 !important;
 }
+.own-nav {
+  font-size: 13px;
+  color: #8c8c8e !important;
+}
 .name {
 }
 .position {
@@ -303,7 +307,7 @@ section {
   margin: 15px;
   box-shadow: none;
   position: relative;
-  background-color: #1e1e27 !important;
+  background-color: #1f2029 !important;
 }
 
 .progress-round:after {
