@@ -609,3 +609,7 @@ h2.accordion-header {
   margin-bottom: 25px;
 }
 /* progress-own */
+#footer .container {
+  background-color: #191922 !important;
+  color: white;
+}
