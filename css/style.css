@@ -10,9 +10,10 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 16px !important;
   font-weight: 700;
-  line-height: 26.4px;
+  line-height: 1.7 !important;
+  margin-bottom: -3px !important;
 }
 
 h2 {
@@ -29,7 +30,13 @@ h3 {
   padding-top: 30px;
 }
 h6 {
-  color: white;
+  color: #cacace !important;
+  line-height: 1;
+  font-size: 13px !important;
+}
+
+.hidden {
+  visibility: hidden;
 }
 /* p {
   font-size: 16px;

@@ -1,4 +1,4 @@
-let coursesEl = document.querySelector("#courses");
+let coursesEl = document.querySelector("#allcourses");
 
 const coursesArr = [
   {
