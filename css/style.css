@@ -1,17 +1,19 @@
 body {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif, Verdana, Segoe, sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  font-size: 16px;
-  background-color: #333333;
   box-sizing: border-box;
-  background-color: #f5f5f5;
+  background: #191922 !important;
+  color: #cacace;
+  font-size: 13px;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 16px !important;
   font-weight: 700;
-  line-height: 26.4px;
+  line-height: 1.7 !important;
+  margin-bottom: -3px !important;
 }
 
 h2 {
@@ -22,34 +24,50 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
-  padding: 10px 0px 10px 0px;
-  font-weight: 700;
-  line-height: 15.4px;
+  font-size: 17px !important;
+  font-weight: 600;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-p {
+h6 {
+  color: #cacace !important;
+  line-height: 1;
+  font-size: 13px !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+/* p {
   font-size: 16px;
   padding: 10px 0px 10px 0px;
   font-weight: 400;
   line-height: 20px;
-}
+  color: white;
+} */
 ul {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
+  color: white;
 }
 .columns {
   display: flex;
 }
 
 .left-column {
-  width: 25%;
+  background-color: #202029;
+  box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
 }
 
 .right-column {
-  width: 75%;
-  padding: 40px;
 }
 .container {
+  background: #1e1e27;
+  max-width: 98% !important;
+  margin-top: 1% !important;
+  margin-bottom: 1% !important;
+  /* 
   margin: 0 auto;
   margin: 20px auto;
   padding: 40px;
@@ -59,29 +77,22 @@ ul {
   line-height: 1.5;
   background-color: #ffffff;
   box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+  */
 }
 .contact,
 .github,
-.languages,
 .references,
 .books,
 .knowledge,
-.courses {
-  border-bottom: 2px solid #b9b9b9;
-  padding: 20px 0px 20px 0px;
+.courses,
+.skills,
+.example {
 }
-
 .date {
-  color: #b9b9b9;
+  color: white;
   font-size: 16px;
   font-weight: 700;
   font-style: italic;
-}
-
-.thanks {
-  border: solid 2px #b9b9b9;
-  padding: 20px;
-  margin-top: 20px;
 }
 
 .work-position,
@@ -115,6 +126,7 @@ ul {
 
 .clean {
   list-style: none;
+  margin: 0 -15px;
 }
 ul li {
   margin-left: 17px;
@@ -127,7 +139,7 @@ ul li {
 a:link,
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #phone,
@@ -172,4 +184,442 @@ a:visited {
 .github-link {
   display: flex;
   align-items: center;
+}
+
+.bd-callout-warning {
+  padding-left: 20px;
+}
+
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 3px solid #191922;
+  border-left-width: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #191922;
+  word-spacing: 2px;
+  letter-spacing: 0.1em;
+  width: 90%;
+  border-left-color: #ffc107;
+}
+
+.row .text-warning {
+  width: auto !important;
+  padding: 0px !important;
+}
+.row .text-danger {
+  width: auto !important;
+  padding: 0px 3px 0px 0px !important;
+}
+.row .text-success {
+  width: auto !important;
+  padding: 0px !important;
+}
+
+/* Styles after bootstrap added */
+section {
+  color: #cacace;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+
+  position: relative;
+  margin-bottom: 25px;
+}
+.about {
+  background-color: #23232d;
+  margin: 0px -11px 0px -11px !important;
+  padding: 40px 0px 40px 0px !important;
+}
+.own-links {
+  transition: 0.4s ease-in-out;
+}
+.own-links:hover {
+  color: #f6c344 !important;
+}
+.yellow {
+  color: #f6c344 !important;
+}
+
+.yellow:hover {
+  color: white !important;
+}
+
+.own-nav {
+  font-size: 13px;
+  color: #8c8c8e !important;
+}
+.name {
+}
+.position {
+  font-size: 13px;
+  font-style: normal;
+  color: #8c8c8e;
+}
+.basic-info,
+.languages {
+  font-size: 13px;
+  padding: 20px 0px 20px 0px !important;
+}
+.basic-info {
+  line-height: 2;
+}
+.basic-info-item {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.grey {
+  color: #8c8c8e;
+  text-align: right;
+}
+.divider {
+  background: #8c8c8e;
+  width: 80%;
+  height: 1px;
+  opacity: 0.3;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.lang {
+  word-spacing: 30px;
+  margin-top: -10px;
+}
+.knowledge-item {
+  width: 80%;
+  margin: auto;
+  font-size: 13px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.skills {
+  padding: 30px 0px;
+}
+.bi-check {
+  font-size: 18px;
+  color: #ffc107;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+.skills ul li {
+  font-size: 13px;
+  color: #8c8c8e;
+}
+
+.card {
+  background-color: #2d2d38 !important;
+  border-radius: 0px !important;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+
+  color: #8c8c8e;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0.25px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.card-subtitle {
+  margin-top: 5px;
+  color: #8c8c8e;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.card-date {
+  margin-left: auto;
+  background: #20202a;
+  padding: 5px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 3px 8px 0 rgb(15 15 20 / 20%);
+  box-shadow: inset 0 3px 8px 0 rgb(15 15 20 / 20%);
+  font-size: 0.5rem;
+}
+
+.work-experience {
+}
+
+/* .card-img-top {
+  background-color: SlateGray;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  -moz-opacity: 20%;
+  -webkit-opacity: 20%;
+  z-index: 2;
+} */
+
+/* accordion */
+.accordion {
+  background-color: #1d1e26 !important;
+  width: 100% !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.accordion-item {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1e1e26 !important;
+  background-color: #1d1e26 !important;
+}
+
+.accordion-body {
+  background-color: #1f2028;
+}
+
+.course-info-item {
+  margin: auto;
+  padding-left: 30px;
+  justify-content: space-between;
+}
+.course-info-photo {
+  margin: auto;
+}
+#course-item {
+  background-color: #1f2027;
+}
+
+h2.accordion-header {
+  padding: 0px !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.accordion-button {
+  background-color: #2d2d38 !important;
+  color: #8c8c8e !important;
+  font-size: 1rem !important;
+}
+
+.accordion-button:focus {
+  border-color: 0px !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  color: #fdba04 !important;
+  filter: invert(70%) sepia(80%) saturate(549%) hue-rotate(359deg) brightness(104%) contrast(104%) !important;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.accordion-body {
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0.25px;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 40% !important;
+}
+/* accordion */
+
+/* progress-round */
+.language-progress {
+  display: inline-block;
+}
+
+.download-cv {
+  width: 80%;
+  margin: auto;
+  font-size: 13px;
+  color: #8c8c8e;
+  padding: 15px 0px 15px 0px;
+}
+
+.contact {
+  background-color: #23232d;
+  margin: 0px -11px 0px -11px !important;
+  padding: 0px 40px 20px 0px !important;
+  text-align: center;
+}
+
+.contact ul li {
+  display: inline-block !important;
+}
+
+.progress-round {
+  width: 50px;
+  height: 50px !important;
+  float: left;
+  line-height: 50px;
+  background: none;
+  margin: 15px;
+  box-shadow: none;
+  position: relative;
+  background-color: #1f2029 !important;
+}
+
+.progress-round:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #191922;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-round > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress-round .progress-left {
+  left: 0;
+}
+
+.progress-round .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 3px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress-round .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress-round .progress-right {
+  right: 0;
+}
+
+.progress-round .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+
+.progress-round .progress-value {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #1e1e27;
+  font-size: 11px;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  padding-top: 13px;
+}
+
+.progress-round.hundred .progress-bar {
+  border-color: #fdba04;
+}
+
+.progress-round.hundred .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+.progress-round.sixty .progress-bar {
+  border-color: #fdba04;
+}
+
+.progress-round.sixty .progress-left .progress-bar {
+  animation: loading-2 1.8s linear forwards;
+}
+
+.progress-round.sixty .progress-left .progress-bar {
+  animation: loading-3 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(30deg);
+  }
+}
+/* progress-rounded */
+
+/* progress-own */
+.progress-own {
+  height: 3px !important;
+  width: 80%;
+  margin: auto;
+  background-color: #191922 !important;
+  margin-bottom: 25px;
+}
+/* progress-own */
+#footer .container {
+  background-color: #191922 !important;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .course-img {
+    visibility: hidden;
+  }
+  .course-info-items {
+    margin-top: -40px !important;
+  }
 }
