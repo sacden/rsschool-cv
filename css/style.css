@@ -28,6 +28,7 @@ h3 {
   font-weight: 600;
   color: white;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 h6 {
   color: #cacace !important;
@@ -184,6 +185,11 @@ a:visited {
   display: flex;
   align-items: center;
 }
+
+.bd-callout-warning {
+  padding-left: 20px;
+}
+
 .bd-callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
@@ -195,9 +201,6 @@ a:visited {
   word-spacing: 2px;
   letter-spacing: 0.1em;
   width: 90%;
-}
-
-.bd-callout-warning {
   border-left-color: #ffc107;
 }
 
@@ -284,6 +287,7 @@ section {
   height: 1px;
   opacity: 0.3;
   margin: auto;
+  margin-top: 20px;
 }
 
 .lang {
