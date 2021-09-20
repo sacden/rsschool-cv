@@ -122,10 +122,23 @@ const getCourses = (coursesArr) =>
 </h2>
 <div id="${el.dataTarget}" class="accordion-collapse collapse" aria-labelledby="${el.id}" data-bs-parent="#accordionExample">
   <div class="accordion-body">
-  <div class="course-info-photo"><img src="${el.image}" class="card-img-top" alt="Modern React with Redux"/></div>
+
+<div class="container" id="course-item">
+<div class="row row-cols-1 row-cols-lg-2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+<div class="col course-img">
+  <div class="course-info-photo"><img src="${el.image}" class="card-img-top" alt="Modern React with Redux"/>
+  </div>
+  </div>
+  <div class="col course-info-items">
     <div class="course-info-item"><span>Author:</span><span class="grey"> ${el.author}</span></div>
     <div class="course-info-item"><span>Duration:</span><span class="grey"> ${el.duration}</span></div>
     <div class="course-info-item"><a href="${el.url}" class="card-link own-links yellow" target="_blank">Take a part in this course<i class="bi-arrow-right-short"></i></a></div>
+    </div>
+    
+</div>
+</div>
+
   </div>
 </div>
 </div>

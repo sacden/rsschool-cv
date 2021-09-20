@@ -354,7 +354,7 @@ section {
 .work-experience {
 }
 
-.card-img-top {
+/* .card-img-top {
   background-color: SlateGray;
   position: relative;
   width: 100%;
@@ -363,7 +363,7 @@ section {
   -moz-opacity: 20%;
   -webkit-opacity: 20%;
   z-index: 2;
-}
+} */
 
 /* accordion */
 .accordion {
@@ -381,8 +381,6 @@ section {
 
 .accordion-body {
   background-color: #1f2028;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .course-info-item {
@@ -392,6 +390,9 @@ section {
 }
 .course-info-photo {
   margin: auto;
+}
+#course-item {
+  background-color: #1f2027;
 }
 
 h2.accordion-header {
@@ -612,4 +613,13 @@ h2.accordion-header {
 #footer .container {
   background-color: #191922 !important;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .course-img {
+    visibility: hidden;
+  }
+  .course-info-items {
+    margin-top: -40px !important;
+  }
 }
