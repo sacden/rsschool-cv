@@ -452,7 +452,7 @@ h2.accordion-header {
 .contact {
   background-color: #23232d;
   margin: 0px -11px 0px -11px !important;
-  padding: 20px 40px 20px 0px !important;
+  padding: 0px 40px 20px 0px !important;
   text-align: center;
 }
 
