@@ -264,7 +264,7 @@ section {
   color: #8c8c8e;
 }
 .basic-info,
-.languages {
+#languages {
   font-size: 13px;
   padding: 20px 0px 20px 0px !important;
 }
@@ -364,6 +364,10 @@ section {
   -webkit-opacity: 20%;
   z-index: 2;
 } */
+
+.card-img-top {
+  border: solid 5px rgba(45, 45, 55, 0.8) !important;
+}
 
 /* accordion */
 .accordion {
