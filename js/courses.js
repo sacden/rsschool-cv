@@ -1,4 +1,4 @@
-let coursesEl = document.querySelector("#allcourses");
+let courses = document.querySelector("#courses");
 
 const coursesArr = [
   {
@@ -114,36 +114,43 @@ const coursesArr = [
 const getCourses = (coursesArr) =>
   coursesArr
     .map(
-      (el) => `<div class="accordion-item">
-<h2 class="accordion-header" id="${el.id}">
-  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${el.dataTarget}" aria-expanded="false" aria-controls="${el.dataTarget}">
-    ${el.name}
-  </button>
-</h2>
-<div id="${el.dataTarget}" class="accordion-collapse collapse" aria-labelledby="${el.id}" data-bs-parent="#accordionExample">
-  <div class="accordion-body">
-
-<div class="container" id="course-item">
-<div class="row row-cols-1 row-cols-lg-2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
-<div class="col course-img">
-  <div class="course-info-photo"><img src="${el.image}" class="card-img-top" alt="Modern React with Redux"/>
-  </div>
-  </div>
-  <div class="col course-info-items">
-    <div class="course-info-item"><span>Author:</span><span class="grey"> ${el.author}</span></div>
-    <div class="course-info-item"><span>Duration:</span><span class="grey"> ${el.duration}</span></div>
-    <div class="course-info-item"><a href="${el.url}" class="card-link own-links yellow" target="_blank">Take a part in this course<i class="bi-arrow-right-short"></i></a></div>
+      (el) => `
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="${el.id}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${el.dataTarget}" aria-expanded="false" aria-controls="${el.dataTarget}">${el.name}
+            </button>
+        </h2>
+    <div id="${el.dataTarget}" class="accordion-collapse collapse" aria-labelledby="${el.id}" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <div class="container" id="course-item">
+                <div class="row row-cols-1 row-cols-lg-2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                     <div class="col course-img">
+                        <div class="course-info-photo"><a href="${el.url}"><img src="${el.image}" class="card-img-top" alt="Modern React with Redux"/></a>
+                        </div>
+                    </div>
+                <div class="col course-info-items">
+                    <div class="course-info-item"><span>Author:</span><span class="grey"> ${el.author}</span></div>
+                    <div class="course-info-item"><span>Duration:</span><span class="grey"> ${el.duration}</span></div>
+                    <div class="course-info-item"><a href="${el.url}" class="card-link own-links yellow" target="_blank">Take a part in this course<i class="bi-arrow-right-short"></i></a></div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-</div>
-</div>
-
-  </div>
 </div>
 </div>
 `
     )
     .join("");
 
-coursesEl.insertAdjacentHTML("afterbegin", getCourses(coursesArr));
+courses.insertAdjacentHTML(
+  "afterbegin",
+  `         <div class="container">
+    <h3><a href="#" id="coursesNav" class="own-links">COURSES</a></h3>
+    ${getCourses(coursesArr)}
+    <div class="courses row row-cols-2 row-cols-md-1 gy-4">
+      <div class="accordion accordion-flush">
+        <div class="row row-cols-md-1" id="allcourses"></div>
+      </div>
+    </div>
+  </div>`
+);
