@@ -1,12 +1,12 @@
 let knowledgeEl = document.querySelector("#knowledge");
 
 const knowledgeArr = [
-  { technology: "JS", percent: 80 },
-  { technology: "React", percent: 75 },
-  { technology: "Redux", percent: 70 },
-  { technology: "Typescript", percent: 70 },
+  { technology: "JS", percent: 100 },
+  { technology: "React", percent: 100 },
+  { technology: "Redux", percent: 100 },
+  { technology: "Typescript", percent: 100 },
   { technology: "HTML", percent: 100 },
-  { technology: "CSS", percent: 75 },
+  { technology: "CSS", percent: 100 },
 ];
 
 const getKnowledges = (knowledgeArr) =>
@@ -15,7 +15,7 @@ const getKnowledges = (knowledgeArr) =>
       (el) => `
 <div class="knowledge-item">
 <span>${el.technology}</span>
-<span>${el.percent}%</span>
+<span></span>
 </div>
 <div class="progress progress-own">
 <div class="progress-bar bg-warning" role="progressbar" style="width: ${el.percent}%" aria-valuenow="${el.percent}" aria-valuemin="0" aria-valuemax="100"></div>
