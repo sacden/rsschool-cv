@@ -3,6 +3,7 @@ let knowledgeEl = document.querySelector("#knowledge");
 const knowledgeArr = [
   { technology: "JS", percent: 100 },
   { technology: "React", percent: 100 },
+  { technology: "React Native", percent: 100 },
   { technology: "Redux", percent: 100 },
   { technology: "Typescript", percent: 100 },
   { technology: "HTML", percent: 100 },

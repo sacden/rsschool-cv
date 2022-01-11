@@ -1,6 +1,6 @@
 let skills = document.querySelector(".skills");
 
-const skillsArr = ["Photoshop, Illustrator", "Visual Studio, Webstorm", "Webpack, Parcel", "Figma, Webflow", "GitHub", "Wordpress, Joomla", "Firebase, Postman", "Bootstrap, Sass"];
+const skillsArr = ["Photoshop, Illustrator", "Visual Studio, Webstorm", "Webpack, Parcel", "Figma, Webflow", "Git, GitHub", "Wordpress, Joomla", "Firebase, Postman", "Bootstrap, Sass", "AWS"];
 
 const getSkills = (skillsArr) => skillsArr.map((el) => `<li><i class="bi-check"></i>${el}</li>`).join("");
 skills.insertAdjacentHTML(
