@@ -2,8 +2,15 @@ let experience = document.querySelector("#experience");
 
 const experienceArr = [
   {
+    name: "KPMG",
+    position: "Front-end Developer",
+    period: "Dec 2021 – now",
+    description: "Development of mobile applications and web sites. Tech Stack: React, React Native, Redux, Typescript, AWS",
+    projectUrl: "https://kpmg.com",
+  },
+  {
     name: "Bangerhead",
-    position: "Frontend Developer",
+    position: "Front-end Developer",
     period: "Feb 2021 – Jun 2021",
     description: "This is a small project that aims to increase buying power by adding gamification to the main website",
     projectUrl: "https://bangerhead.se/",
