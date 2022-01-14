@@ -23,7 +23,7 @@ const experienceArr = [
     projectUrl: "https://sunnytrips.cz/",
   },
   {
-    name: "STOCK Plzeň - Božkov s.r.o.",
+    name: "Božkov",
     position: "IT Specialist",
     period: "Jan 2016 – Jul 2021",
     description: "IT support for local bussiness projects",

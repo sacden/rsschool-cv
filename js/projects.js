@@ -3,16 +3,16 @@ let projects = document.querySelector("#projects");
 const projectsArr = [
   {
     name: "CRYPTOTRACKER",
-    image: "./images/projects/cryptotracker.png",
-    description: "The app allows you to monitor all cryptocurrencies on nice charts",
+    image: "./images/projects/cryptotracker_banner.jpg",
+    description: "The app downloads all cryptocurrencies, shows price changes in charts for different periods",
     technologies: ["React Native"],
     projectUrl: "https://kpmg.com",
     gitHubUrl: "https://github.com/sacden/react-native-cryptotracker",
   },
   {
     name: "INSTAGRAM CLONE",
-    image: "./images/projects/cryptotracker.png",
-    description: "Development of mobile applications and web sites. Tech Stack: React, React Native, Redux, Typescript, AWS",
+    image: "./images/projects/instagram_banner.jpg",
+    description: "Basic functionalities of Instagram without backend. In a progress...",
     technologies: ["React Native", "Typescript"],
     projectUrl: "https://kpmg.com",
     gitHubUrl: "https://github.com/sacden/react-native-TS-instagram",
@@ -20,7 +20,7 @@ const projectsArr = [
   {
     name: "REACT ESHOP",
     image: "./images/projects/cryptotracker.png",
-    description: "Development of mobile applications and web sites. Tech Stack: React, React Native, Redux, Typescript, AWS",
+    description: "E-shop with electronics with some features as searching, filtering and sorting. In a progress...",
     technologies: ["React", "Redux"],
     projectUrl: "https://kpmg.com",
     gitHubUrl: "https://github.com/sacden/eshop",
@@ -33,7 +33,7 @@ const getProjects = (projectsArr) =>
       (el) => `
       <div class="card" style="width: 18rem; ">
       
-      <a href="${el.gitHubUrl}" class="card-link own-links yellow aligncenter" target="_blank">${el.name}</a>
+      <a href="${el.gitHubUrl}" class="card-link own-links yellow aligncenter project-link" target="_blank">${el.name}</a>
   <img src=${el.image} class="card-img-projects"  alt=${el.name}>
   <div class="card-body">
     <p class="card-text">${el.description}</p>
