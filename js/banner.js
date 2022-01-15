@@ -6,7 +6,6 @@ banner.insertAdjacentHTML(
   <div class="container">
   <div class="row row-cols-1  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" >
   <h6 class="hidden">Banner</h6>
-  <h3><a href="#" id="recentProjectsNav" class="own-links">RECENT PROJECTS</a></h3>
   <div class="bannerContainer">
       <div class="bannersidebar">
         <div style="background: linear-gradient(229.99deg, #23232d -26%, #2d2d38 145%)">
@@ -25,17 +24,17 @@ banner.insertAdjacentHTML(
       <div class="main-slide">
         <div
           style="
-            background-image: url('./images/projects/cryptotracker_banner.png');
+            background-image: url('./images/projects/instagram_banner.jpg');
           "
         ></div>
         <div
           style="
-          background-image: url('./images/projects/cryptotracker_banner.png');
+          background-image: url('./images/projects/cryptotracker_banner.jpg');
           "
         ></div>
         <div
           style="
-          background-image: url('./images/projects/cryptotracker_banner.png');
+          background-image: url('./images/projects/instagram_banner.jpg');
           "
         ></div>
 
