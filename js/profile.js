@@ -7,7 +7,7 @@ profileEl.insertAdjacentHTML(
 <div class="name">
   <a href="" class="own-links"><h1>Denis Shakhmaev</h1></a>
 </div>
-<div class="position">Front-End developer</div>
+<div class="position">Front-end developer</div>
 </section>
 <section class="basic-info">
 <h6 class="hidden">basic info</h6>
