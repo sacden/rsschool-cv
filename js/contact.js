@@ -12,6 +12,9 @@ contact.insertAdjacentHTML(
       <a href="https://github.com/sacden/" target="_blank" class="own-links"><i class="bi-github"></i></a>
     </li>
     <li>
+    <a href="https://leetcode.com/sacden/" target="_blank" class="own-links"><i class="bi bi-box-arrow-right"></i></a>
+  </li>
+    <li>
       <a href="https://www.codewars.com/users/sacden/" target="_blank" class="own-links"><i class="bi-flower1"></i></a>
     </li>
     <li>
