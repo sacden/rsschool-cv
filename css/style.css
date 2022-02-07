@@ -494,8 +494,23 @@ img.card-img-projects {
 .table-dark {
   --bs-table-bg: #2d2d38 !important;
   --bs-table-striped-bg: #1f2028 !important;
+  --bs-table-striped-color: #8c8c8e !important;
+  color: #8c8c8e !important;
 }
+
 .contest-header {
+  color: #f6c344 !important;
+}
+
+.contest-rank {
+  color: #fff !important;
+}
+
+#contestsLink {
+  transition: 0.4s ease-in-out;
+  color: #8c8c8e !important;
+}
+#contestsLink:hover {
   color: #f6c344 !important;
 }
 
