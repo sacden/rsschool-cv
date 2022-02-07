@@ -8,7 +8,7 @@ navigation.insertAdjacentHTML(
       <li class="breadcrumb-item"><a href="#projectsNav" class="own-links own-nav">My projects</a></li>
       <li class="breadcrumb-item"><a href="#educationNav" class="own-links own-nav">Education</a></li>
       <li class="breadcrumb-item"><a href="#coursesNav" class="own-links own-nav">Courses</a></li>
-      <li class="breadcrumb-item"><a href="#example" class="own-links own-nav">Code example</a></li>
+      <li class="breadcrumb-item"><a href="#contestsNav" class="own-links own-nav">Contests</a></li>
     </ul>
   </nav>`
 );
