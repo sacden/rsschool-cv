@@ -4,7 +4,7 @@ const contestsArr = [
   {
     id: 1,
     contest: "Leetcode Biweekly Contest 71",
-    rank: [7620, 16927],
+    rank: [5745, 16927],
     name: "sacden",
     score: "7/18",
     finishTime: "0:48:04",
@@ -31,10 +31,10 @@ const contestsArr = [
   {
     id: 4,
     contest: "Leetcode Weekly Contest 281",
-    rank: [8700, 14114],
+    rank: [12844, 20119],
     name: "sacden",
     score: "3/18",
-    finishTime: "1:12:46",
+    finishTime: "0:12:46",
     url: "https://leetcode.com/contest/weekly-contest-281/ranking/348/",
   },
 ];
