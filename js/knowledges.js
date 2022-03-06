@@ -19,7 +19,7 @@ const getKnowledges = (knowledgeArr) =>
 <span></span>
 </div>
 <div class="progress progress-own">
-<div class="progress-bar bg-warning" role="progressbar" style="width: ${el.percent}%" aria-valuenow="${el.percent}" aria-valuemin="0" aria-valuemax="100"></div>
+<div class="progress-bar" role="progressbar" style="width: ${el.percent}%" aria-valuenow="${el.percent}" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 `
     )

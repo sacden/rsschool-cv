@@ -19,10 +19,6 @@ profileEl.insertAdjacentHTML(
   <span>City:</span>
   <span class="grey"> Prague</span>
 </div>
-<div class="basic-info-item">
-  <span>Age:</span>
-  <span class="grey"> 36</span>
-</div>
 </section>
 <div class="divider"></div>`
 );
