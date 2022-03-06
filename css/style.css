@@ -1,6 +1,5 @@
 body {
   box-sizing: border-box;
-  background: #191922 !important;
   color: #cacace;
   font-size: 13px;
   line-height: 1.7;
@@ -55,15 +54,9 @@ ul {
   display: flex;
 }
 
-.left-column {
-  background-color: #202029;
-  box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
-}
-
 .right-column {
 }
 .container {
-  background: #1e1e27;
   max-width: 98% !important;
   margin-top: 1% !important;
   margin-bottom: 1% !important;
@@ -135,12 +128,6 @@ ul li {
 .basic-job-description {
   margin: 20px 0px 20px 0px;
   display: flex;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: white;
 }
 
 #phone,
@@ -220,7 +207,6 @@ a:visited {
 
 /* Styles after bootstrap added */
 section {
-  color: #cacace;
   line-height: 1.7;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -235,18 +221,11 @@ section {
   margin-bottom: 25px;
 }
 .about {
-  background-color: #23232d;
   margin: 0px -11px 0px -11px !important;
   padding: 40px 0px 40px 0px !important;
 }
 .own-links {
   transition: 0.4s ease-in-out;
-}
-.own-links:hover {
-  color: #f6c344 !important;
-}
-.yellow {
-  color: #f6c344 !important;
 }
 
 .yellow:hover {
@@ -318,24 +297,12 @@ section {
 }
 .bi-check {
   font-size: 18px;
-  color: #ffc107;
   margin-right: 5px;
   margin-top: 15px;
 }
 .skills ul li {
   font-size: 13px;
   color: #8c8c8e;
-}
-
-.card {
-  background-color: #2d2d38 !important;
-  border-radius: 0px !important;
-  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
-
-  color: #8c8c8e;
-  font-size: 13px;
-  line-height: 1.7;
-  letter-spacing: 0.25px;
 }
 
 .card-title {
@@ -374,7 +341,6 @@ section {
 
 .card-date {
   margin-left: auto;
-  background: #20202a;
   padding: 5px 15px;
   border-radius: 15px;
   -webkit-box-shadow: inset 0 3px 8px 0 rgb(15 15 20 / 20%);
@@ -383,7 +349,6 @@ section {
 }
 
 .card-technologies {
-  background: #20202a;
   padding: 8px 8px;
   border-radius: 15px;
   -webkit-box-shadow: inset 0 3px 8px 0 rgb(15 15 20 / 20%);
@@ -408,22 +373,12 @@ section {
   z-index: 2;
 } */
 
-.card-img-top {
-  border: solid 5px rgba(45, 45, 55, 0.8) !important;
-}
-
 /* accordion */
 .accordion {
   background-color: #1d1e26 !important;
   width: 100% !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
-}
-.accordion-item {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #1e1e26 !important;
-  background-color: #1d1e26 !important;
 }
 
 .accordion-body {
@@ -449,7 +404,6 @@ h2.accordion-header {
 }
 
 .accordion-button {
-  background-color: #2d2d38 !important;
   color: #8c8c8e !important;
   font-size: 1rem !important;
 }
@@ -458,11 +412,6 @@ h2.accordion-header {
   border-color: 0px !important;
   outline: 0;
   box-shadow: none !important;
-}
-
-.accordion-button::after {
-  color: #fdba04 !important;
-  filter: invert(70%) sepia(80%) saturate(549%) hue-rotate(359deg) brightness(104%) contrast(104%) !important;
 }
 
 .accordion-item:last-of-type .accordion-button.collapsed {
@@ -482,36 +431,21 @@ h2.accordion-header {
   width: 40% !important;
 }
 
-img.card-img-projects {
-  border: solid 2px rgba(78, 78, 78, 0.2);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.card-img-url {
+  width: 100% !important;
 }
 
 /* accordion */
 
 /* contests */
 
-.table-dark {
-  --bs-table-bg: #2d2d38 !important;
-  --bs-table-striped-bg: #1f2028 !important;
-  --bs-table-striped-color: #8c8c8e !important;
-  color: #8c8c8e !important;
-}
-
-.contest-header {
-  color: #f6c344 !important;
-}
-
-.contest-rank {
+/* .contest-rank {
   color: #cacace;
-}
+} */
 
 #contestsLink {
   transition: 0.4s ease-in-out;
   color: #8c8c8e !important;
-}
-#contestsLink:hover {
-  color: #f6c344 !important;
 }
 
 /* progress-round */
@@ -526,9 +460,8 @@ img.card-img-projects {
   color: #8c8c8e;
   padding: 0px 0px 15px 0px;
 }
-
+/* hidden */
 .contact {
-  background-color: #23232d;
   margin: 0px -11px 0px -11px !important;
   padding: 0px 40px 20px 0px !important;
   text-align: center;
@@ -547,7 +480,6 @@ img.card-img-projects {
   margin: 15px;
   box-shadow: none;
   position: relative;
-  background-color: #1f2029 !important;
 }
 
 .progress-round:after {
@@ -555,7 +487,6 @@ img.card-img-projects {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 3px solid #191922;
   position: absolute;
   top: 0;
   left: 0;
@@ -611,9 +542,9 @@ img.card-img-projects {
   width: 90%;
   height: 90%;
   border-radius: 50%;
-  background: #1e1e27;
+
   font-size: 11px;
-  color: #fff;
+
   line-height: 15px;
   text-align: center;
   position: absolute;
@@ -622,20 +553,12 @@ img.card-img-projects {
   padding-top: 13px;
 }
 
-.progress-round.hundred .progress-bar {
-  border-color: #fdba04;
-}
-
-.progress-round.hundred .progress-left .progress-bar {
-  animation: loading-2 1.5s linear forwards 1.8s;
-}
-
-.progress-round.sixty .progress-bar {
-  border-color: #fdba04;
-}
-
 .progress-round.sixty .progress-left .progress-bar {
   animation: loading-2 1.8s linear forwards;
+}
+
+.light .progress-round.hundred .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.8s;
 }
 
 .progress-round.sixty .progress-left .progress-bar {
@@ -688,10 +611,6 @@ img.card-img-projects {
   margin-bottom: 25px;
 }
 /* progress-own */
-#footer .container {
-  background-color: #191922 !important;
-  color: white;
-}
 
 @media only screen and (max-width: 600px) {
   #banner {

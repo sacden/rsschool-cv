@@ -1,0 +1,231 @@
+.light {
+  background: #f7f8fa !important;
+}
+
+.light .contest-rank {
+  color: rgba(38, 38, 38, 0.75);
+}
+
+.light .about {
+  background-color: #f7f7f8;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.light .container {
+  background: #f7f8fa;
+}
+
+.light .progress-round .progress-value {
+  background: #fff;
+}
+
+.light .left-column {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+}
+
+.light .progress-round {
+  background-color: #fff !important;
+}
+
+.light .progress-round:after {
+  border: 3px solid #f7f7f8;
+}
+
+.light #footer .container {
+  color: black;
+}
+
+.light .bannerContainer {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+}
+
+.light .card {
+  background-color: #fff !important;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  color: #8c8c8e;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0.25px;
+  width: 49%;
+}
+
+.light .contest-header {
+  color: #4a99e9 !important;
+}
+
+.light .own-links:hover {
+  color: #4a99e9 !important;
+}
+
+.light .yellow {
+  color: #4a99e9 !important;
+}
+
+.light #contestsLink:hover {
+  color: #4a99e9 !important;
+}
+
+.light .card-date {
+  background: #f7f7f8;
+}
+
+.light .card-technologies {
+  background: #f7f7f8;
+}
+
+.light .progress-round .progress-bar {
+  color: #8c8c8e;
+}
+
+/* .light .progress-round .progress-bar {
+  background-color: #4a99e9 !important;
+}
+
+.light .progress-bar {
+  background-color: #4a99e9 !important;
+} */
+
+.light .progress .progress-bar {
+  background-color: #4a99e9 !important;
+}
+
+.light .progress-round.hundred .progress-bar {
+  border-color: #4a99e9;
+}
+
+.light .progress-round.sixty .progress-bar {
+  border-color: #4a99e9;
+}
+
+.light .bi-check {
+  color: #4a99e9;
+}
+
+.light .table-round {
+  overflow: hidden;
+  border-radius: 0.5rem !important;
+  -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+}
+
+/* .table-striped {
+  border-radius: 0.5rem !important;
+  -webkit-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 4px 11px -1px rgba(0, 0, 0, 0.17);
+} */
+
+.light .table-dark {
+  --bs-table-bg: #fff !important;
+  --bs-table-striped-bg: #f7f7f8 !important;
+  --bs-table-striped-color: #8c8c8e !important;
+  color: #8c8c8e !important;
+}
+
+.light .table > :not(caption) > * > * {
+  border-bottom-width: 0px !important;
+}
+
+.light .accordion-body {
+  background-color: #fafafa;
+}
+
+.light #course-item {
+  background-color: #fafafa;
+}
+
+.light .accordion-button {
+  background-color: #fff !important;
+}
+
+.light .accordion-item {
+  background-color: #fff;
+  border: 1px solid #f7f7f8;
+}
+
+.light .accordion-item {
+  border-bottom-color: #f7f7f8 !important;
+}
+
+.light .accordion-button::after {
+  color: #4a99e9 !important;
+  filter: invert(73%) sepia(34%) saturate(7122%) hue-rotate(186deg) brightness(93%) contrast(95%) !important;
+}
+
+.light .card-img-top {
+  border: solid 5px rgba(232, 232, 232, 0.8) !important;
+}
+
+.light .footer-logo {
+  background-image: url(../icons/rs-logo-dark.png);
+  height: 85px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.light .card-img-projects {
+  /* border: solid 2px rgba(78, 78, 78, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border: 2px solid #f0f0f0;
+  background: linear-gradient(180deg, rgba(247, 248, 250, 1) 0%, rgba(255, 255, 255, 1) 23%, rgba(247, 248, 250, 1) 100%);
+}
+
+.light .banner-gradient {
+  background: linear-gradient(180deg, rgba(247, 248, 250, 1) 0%, rgba(255, 255, 255, 1) 23%, rgba(247, 248, 250, 1) 100%);
+}
+
+.light .banner-button:hover {
+  color: #222;
+  background-color: #4a99e9 !important;
+  transition: 0.4s ease-in-out;
+}
+
+.light .form-check-input:checked {
+  background-color: grey !important;
+  border-color: grey !important;
+}
+
+.light .form-check-input:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+/* FONTS */
+
+.light a:link,
+a:visited {
+  text-decoration: none;
+  color: rgba(38, 38, 38, 0.75);
+}
+
+.light section {
+  color: #8c8c8e;
+}
+
+.light .card-title {
+  color: rgba(38, 38, 38, 0.75);
+}
+
+.light .card-title-projects {
+  color: rgba(38, 38, 38, 0.75);
+}
+.light .footer-logo-text {
+  color: #8c8c8e;
+}
+
+.light #banner_header {
+  color: #4a99e9 !important;
+}

@@ -37,6 +37,24 @@ const contestsArr = [
     finishTime: "0:12:46",
     url: "https://leetcode.com/contest/weekly-contest-281/ranking/348/",
   },
+  {
+    id: 5,
+    contest: "Leetcode Biweekly Contest 73",
+    rank: [10253, 18529],
+    name: "sacden",
+    score: "3/18",
+    finishTime: "0:33:13",
+    url: "https://leetcode.com/contest/biweekly-contest-73/ranking/411/",
+  },
+  {
+    id: 6,
+    contest: "Leetcode Weekly Contest 283",
+    rank: [13572, 21847],
+    name: "sacden",
+    score: "3/18",
+    finishTime: "0:45:23",
+    url: "https://leetcode.com/contest/weekly-contest-283/ranking/543/",
+  },
 ];
 
 const getcontests = (contestsArr) =>
@@ -59,10 +77,11 @@ contests.insertAdjacentHTML(
   "afterbegin",
   `         <div class="container">
     <h3><a href="#" id="contestsNav" class="own-links">CONTESTS</a></h3>
+    <div class="table-round">
     <table class="table table-dark table-striped">
     <thead>
     <tr>
-      <th scope="col" class="contest-header">Rank</th>
+      <th scope="col" class="contest-header">Rank / Total</th>
       <th scope="col" class="contest-header">Contest</th>
       <th scope="col" class="contest-header">Name</th>
       <th scope="col" class="contest-header">Score</th>
@@ -73,6 +92,7 @@ contests.insertAdjacentHTML(
     ${getcontests(contestsArr)}
     </tbody>
     </table>
+    </div>
     <div class="contests row row-cols-2 row-cols-md-1 gy-4">
       <div class="accordion accordion-flush">
         <div class="row row-cols-md-1" id="allcontests"></div>

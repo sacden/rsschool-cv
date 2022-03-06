@@ -146,11 +146,14 @@ courses.insertAdjacentHTML(
   "afterbegin",
   `         <div class="container">
     <h3><a href="#" id="coursesNav" class="own-links">COURSES</a></h3>
-    ${getCourses(coursesArr)}
-    <div class="courses row row-cols-2 row-cols-md-1 gy-4">
-      <div class="accordion accordion-flush">
-        <div class="row row-cols-md-1" id="allcourses"></div>
+      <div class="table-round">
+      ${getCourses(coursesArr)}
       </div>
-    </div>
+      <div class="courses row row-cols-2 row-cols-md-1 gy-4">
+        <div class="accordion accordion-flush">
+          <div class="row row-cols-md-1" id="allcourses"></div>
+        </div>
+      </div>
+    
   </div>`
 );

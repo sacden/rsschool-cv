@@ -39,6 +39,6 @@ education.insertAdjacentHTML(
     EDUCATION
   </a>
 </h3>
-<div class="row row-cols-1 row-cols-lg-2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 g-3" id="alleducation">${getEducation(educationArr)}</div>
+<div class="row row-cols-1 row-cols-lg-2 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 g-3" id="alleducation" style="justify-content: space-between">${getEducation(educationArr)}</div>
 </div>`
 );

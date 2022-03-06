@@ -7,37 +7,39 @@ const bannerArr = [
     gradient: "215.32deg, #2d2d38 -1%, #23232d 124%",
   },
   {
-    name: "REACT ESHOP",
-    technologies: "React, Redux",
-    gradient: "221.87deg, #23232d 1%, #2d2d38 128%",
-  },
-  {
     name: "INSTAGRAM CLONE",
     technologies: "React Native",
     gradient: "229.99deg, #23232d -26%, #2d2d38 145%",
   },
 ];
 
+// ,
+//   {
+//     name: "REACT ESHOP",
+//     technologies: "React, Redux",
+//     gradient: "221.87deg, #23232d 1%, #2d2d38 128%",
+//   },
+//   {
+//     image: "progress-light.png",
+//     url: "",
+//   },
+
 const imageArr = [
   {
-    image: "instagram_banner",
+    image: "instagram-banner-light.png",
     url: "./portfolio/index.html?id=0",
   },
   {
-    image: "instagram_banner",
-    url: "",
-  },
-  {
-    image: "cryptotracker_banner",
+    image: "cryptotracker-banner-light.png",
     url: "",
   },
 ];
-
+// `<div style="background: linear-gradient(${el.gradient})">
 const createDescription = () => {
   return bannerArr
     .map(
       (el) =>
-        `<div style="background: linear-gradient(${el.gradient})">
+        `<div class="banner-gradient">
       <h1 id="banner_header">${el.name}</h1>
         <span class="gray-banner">${el.technologies}</span>
       </div>`
@@ -47,7 +49,7 @@ const createDescription = () => {
 
 const createImages = () => {
   return imageArr
-    .map((el) => `<div style="background-image: url('./images/projects/${el.image}.jpg');"><a href="${el.url}" style="display:block; width:100% ;height:100%;" target="_blank">&nbsp;</a></div>`)
+    .map((el) => `<div style="background-image: url('./images/projects/${el.image}');"><a href="${el.url}" style="display:block; width:100% ;height:100%;" target="_blank">&nbsp;</a></div>`)
     .join("");
 };
 

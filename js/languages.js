@@ -17,6 +17,6 @@ languages.insertAdjacentHTML(
       <div class="progress-value">B2</div>
     </div>
   </div>
-  <div class="lang text-center">Russian Czech English</div>
+  <div class="lang text-center">Czech Russian English</div>
   <div class="divider"></div>`
 );

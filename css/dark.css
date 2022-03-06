@@ -1,0 +1,207 @@
+.dark {
+  background: #191922 !important;
+}
+
+.dark .contest-rank {
+  color: #cacace;
+}
+
+.dark .about {
+  background-color: #23232d;
+}
+
+.dark .container {
+  background: #1e1e27;
+}
+
+.dark .progress-round .progress-value {
+  background: #1e1e27;
+  color: #fff;
+}
+
+.dark .left-column {
+  background-color: #202029;
+  box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+}
+
+.dark .progress-round {
+  background-color: #1f2029 !important;
+}
+
+.dark .progress-round:after {
+  border: 3px solid #191922;
+}
+
+.dark #footer .container {
+  background-color: #191922 !important;
+  color: white;
+}
+
+.dark .bannerContainer {
+}
+
+.dark .card {
+  background-color: #2d2d38 !important;
+  border-radius: 0px !important;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+  color: #8c8c8e;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0.25px;
+  width: 49%;
+}
+
+.dark .contest-header {
+  color: #f6c344 !important;
+}
+
+.dark .own-links:hover {
+  color: #f6c344 !important;
+}
+
+.dark .yellow {
+  color: #f6c344 !important;
+}
+
+.dark #contestsLink:hover {
+  color: #f6c344 !important;
+}
+
+.dark .card-date {
+  background: #20202a;
+}
+
+.dark .card-technologies {
+  background: #20202a;
+}
+
+/* .dark .progress-round .progress-bar {
+  background-color: #f6c344;
+}
+
+
+.dark .progress-bar {
+  background-color: #f6c344 !important;
+} */
+
+.dark .progress .progress-bar {
+  background-color: #f6c344 !important;
+}
+
+.dark .progress-round.hundred .progress-bar {
+  border-color: #fdba04;
+}
+
+.dark .progress-round.sixty .progress-bar {
+  border-color: #fdba04;
+}
+
+.dark .bi-check {
+  color: #ffc107;
+}
+
+.dark .table-dark {
+  --bs-table-bg: #2d2d38 !important;
+  --bs-table-striped-bg: #1f2028 !important;
+  --bs-table-striped-color: #8c8c8e !important;
+  color: #8c8c8e !important;
+}
+
+.dark .accordion-body {
+  background-color: #1f2028;
+}
+
+.dark #course-item {
+  background-color: #1f2027;
+}
+
+.dark .accordion-button {
+  background-color: #2d2d38 !important;
+}
+
+.dark .accordion-item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.dark .accordion-item {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1e1e26 !important;
+  background-color: #1d1e26 !important;
+}
+
+.dark .accordion-button::after {
+  color: #f6c344 !important;
+  filter: invert(85%) sepia(67%) saturate(673%) hue-rotate(322deg) brightness(99%) contrast(94%) !important;
+}
+
+.dark .card-img-top {
+  border: solid 5px rgba(45, 45, 55, 0.8) !important;
+}
+
+.dark .footer-logo {
+  background-image: url(../icons/rs-logo-light.png);
+  height: 85px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dark .card-img-projects {
+  /* border: solid 2px rgba(78, 78, 78, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border: 2px solid #1f1f28;
+  background: linear-gradient(180deg, rgba(38, 38, 47, 1) 0%, rgba(41, 41, 50, 1) 23%, rgba(45, 45, 56, 1) 100%);
+}
+
+.dark .banner-gradient {
+  background: linear-gradient(180deg, rgba(38, 38, 47, 1) 0%, rgba(41, 41, 50, 1) 23%, rgba(45, 45, 56, 1) 100%);
+}
+
+.dark .banner-button:hover {
+  color: #222;
+  background-color: #f6c344 !important;
+  transition: 0.4s ease-in-out;
+}
+
+.dark .form-check-input:checked {
+  background-color: #f6c344 !important;
+  border-color: #f6c344 !important;
+}
+
+.dark .form-check-input:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+/* FONTS */
+
+.dark a:link {
+  text-decoration: none;
+  color: rgba(250, 250, 250, 1);
+}
+
+.dark a:visited {
+  text-decoration: none;
+  color: rgba(250, 250, 250, 1);
+}
+
+.dark section {
+  color: #cacace;
+}
+
+.dark .card-title {
+  color: white;
+}
+
+.dark .card-title-projects {
+  color: white;
+}
+.light .footer-logo-text {
+}
+
+.dark #banner_header {
+  color: #f6c344 !important;
+}

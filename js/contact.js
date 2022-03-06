@@ -2,9 +2,7 @@ const contact = document.querySelector(".contact");
 
 contact.insertAdjacentHTML(
   "afterbegin",
-  `
-  <h6 class="hidden">contact</h6>
-  <ul class="clean">
+  `<ul class="clean">
     <li>
       <a href="https://www.linkedin.com/in/denis-shakhmaev/" target="_blank" class="own-links"><i class="bi-linkedin"></i></a>
     </li>
