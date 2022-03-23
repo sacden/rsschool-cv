@@ -10,6 +10,7 @@ const skillsArr = [
   "Firebase, Postman",
   "Bootstrap, Sass",
   "AWS, Jira",
+  "Agile, SCRUM",
 ];
 
 const getSkills = (skillsArr) => skillsArr.map((el) => `<li><i class="bi-check"></i>${el}</li>`).join("");

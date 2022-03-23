@@ -55,6 +55,15 @@ const contestsArr = [
     finishTime: "0:45:23",
     url: "https://leetcode.com/contest/weekly-contest-283/ranking/543/",
   },
+  {
+    id: 7,
+    contest: "Leetcode Biweekly Contest 74",
+    rank: [9604, 17590],
+    name: "sacden",
+    score: "3/18",
+    finishTime: "0:09:59",
+    url: "https://leetcode.com/contest/biweekly-contest-74/ranking/",
+  },
 ];
 
 const getcontests = (contestsArr) =>
