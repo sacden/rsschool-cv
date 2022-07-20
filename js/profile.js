@@ -2,10 +2,10 @@ const profileEl = document.querySelector("#profile");
 profileEl.insertAdjacentHTML(
   "afterbegin",
   `         <section class="about text-center">
-<div class="logo"><img src="./images/avatar.png" alt="Denis Shakhmaev" width="100" height="100"  /></div>
+<div class="logo"><img src="./images/avatar.png" alt="Denis Šachmajev" width="100" height="100"  /></div>
 
 <div class="name">
-  <a href="" class="own-links"><h1>Denis Shakhmaev</h1></a>
+  <a href="" class="own-links"><h1>Denis Šachmajev</h1></a>
 </div>
 <div class="position">Front-end developer</div>
 </section>
