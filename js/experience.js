@@ -2,6 +2,13 @@ let experience = document.querySelector("#experience");
 
 const experienceArr = [
   {
+    name: "Merkle DACH",
+    position: "Salesforce Commerce Cloud Developer",
+    period: "Jun 2022 – now",
+    description: "Launching new powerful e-shops, increasing sales and expanding into new geographies",
+    projectUrl: "https://www.merkleinc.com/",
+  },
+  {
     name: "KPMG",
     position: "Front-end Developer",
     period: "Dec 2021 – now",
