@@ -54,6 +54,15 @@ const projectsArr = [
     projectUrl: "https://sacden.github.io/react-sneakers/",
     gitHubUrl: "https://github.com/sacden/react-sneakers/",
   },
+  {
+    name: "Pizza E-SHOP",
+    imageDark: "./images/projects/react-pizza.png",
+    imageLight: "./images/projects/react-pizza.png",
+    description: "E-shop with searchbox, filters, categories and cart",
+    technologies: ["React", "Typescript", "Redux Toolkit"],
+    projectUrl: "https://sacden.github.io/react-pizza/",
+    gitHubUrl: "https://github.com/sacden/pizza/",
+  },
 ];
 
 const getProjects = (projectsArr) =>
